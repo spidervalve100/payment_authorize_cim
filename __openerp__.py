@@ -7,7 +7,8 @@
     'version': '1.0',
     'description': """Authorize.Net CIM Payment Acquirer""",
     'author': 'eNuke/CloudMy.IT LLC',
-    'depends': ['payment'],
+    'depends': ["payment"
+                "website"],
     'data': [
         'views/authorize_cim.xml',
         'views/payment_acquirer.xml',
