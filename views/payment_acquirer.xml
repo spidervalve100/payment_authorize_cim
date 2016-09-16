@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <record id="acquirer_form_authorize_cim" model="ir.ui.view">
             <field name="name">acquirer.form.authorize_cim</field>
             <field name="model">payment.acquirer</field>
             <field name="inherit_id" ref="payment.acquirer_form"/>
             <field name="arch" type="xml">
-                <xpath expr='//group[@name="acquirer_display"]' position='after'>
+                <xpath expr='//group[@name="acquirer"]' position='after'>
                     <group attrs="{'invisible': [('provider', '!=', 'authorize_cim')]}">
                         <field name="authorize_login"/>
                         <field name="authorize_transaction_key" password="True"/>
@@ -30,4 +30,4 @@
             </field>
         </record>
      </data>
-</openerp>
+</odoo>
