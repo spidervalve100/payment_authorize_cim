@@ -9,6 +9,8 @@ It was written and coded by Enuke Software, using other open source packages.
 ## Install
 This Package Relys on Py-Authorize and as such your system needs to have python-colander installed.
 
+after download rename folder to payment_authorize_cim by deleteing the branch name. 
+
 ## More
 Please feel free to submit changes to improve this addon!
 
